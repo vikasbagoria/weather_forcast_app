@@ -182,10 +182,11 @@ body> span{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top:20px;
 
 }
 .inputFeild{
-    width:50%;
+    width:70%;
     margin:auto;
     border-radius: 5rem;
     padding:1rem 1rem;
@@ -196,4 +197,8 @@ body> span{
     text-align: center;
     font-size: 2rem;
     margin:2rem auto;
+}
+#main_heading{
+    text-align: center;
+    margin-bottom: 20px;
 }

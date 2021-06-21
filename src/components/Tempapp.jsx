@@ -20,9 +20,11 @@ const Tempapp = () =>{
 
     return (
         <>
+        
+        <h1 id="main_heading">WEATHER FORCAST</h1>
         <div className="box">
             <div className="inputData">
-        <input type="search" className="inputFeild" onChange={(event)=>{setSearch(event.target.value) }} />
+        <input type="search" className="inputFeild" placeholder="Type your city name.." onChange={(event)=>{setSearch(event.target.value) }} />
             </div>
 
             {!city ? (
